@@ -14,6 +14,8 @@
     object-fit:cover;
 }
 
+/* Now Showing Section */
+
 .now-showing-section{
     margin: 0 20px;
 }
@@ -31,5 +33,23 @@
     margin-bottom: 20px;
 }
 
+/* Coming Soon Section */
+
+.coming-soon-section{
+    margin: 0 20px;
+}
+
+.coming-soon-section .title{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.coming-soon-section a:hover, a:visited{
+    text-decoration: none;
+}
+
+.coming-soon-section .c-cards .row{
+    margin-bottom: 20px;
+}
 
 
