@@ -1,8 +1,18 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.header{
-    justify-content: space-between;
+.banner-section{
+    margin: 20px;
 }
+
+.banner-section .carousel-inner img{
+    border-radius: 10px;
+    height: 350px;
+    object-fit:cover;
+}
+
+
+
