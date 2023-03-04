@@ -14,5 +14,22 @@
     object-fit:cover;
 }
 
+.now-showing-section{
+    margin: 0 20px;
+}
+
+.now-showing-section .title{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.now-showing-section a:hover, a:visited{
+    text-decoration: none;
+}
+
+.now-showing-section .n-cards .row{
+    margin-bottom: 20px;
+}
+
 
 
