@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+  
+body{
+    background-color: black;
+    color: black;
+}
+
+.t1{
+    margin: 5px 0 5px 25px;
+}
+
+.row{
+    display: flex;
+    margin: 0 20px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.section{
+    margin: 30px 0;
+}
+
+.movieimg{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

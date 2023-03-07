@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/profile/banner.jpg);
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.user-profile{
+    padding-left: 50px;
+    display:flex;
+}
+
+.user-profile span{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.user-profile img{
+    width: 85px;
+    height: 117px;
+    padding: 20px 0 15px 0;
+}
+
+.content{
+    padding: 0 0 150px 50px;
+    display: flex;
+}
+
+.user-details{
+    border:none;
+    border-collapse: collapse;
+}
+
+.user-details th{
+    width: 150px;
+    height: 50px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.user-details tr{
+    width: 20px;
+    height: 50px;
+    text-align: left;
+    padding: 0 10px 0 0;
+    border-bottom: 1px solid grey;
+}
+
+.user-details tr td{
+    width: 310px;
+}
+
+table tr:hover{
+    background-color: #0A223D;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+
+
+.ticket-details{
+    margin-left: 100px;
+}
+
+.ticket-details,.ticket-details th,.ticket-details td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 850px;
+    height: 50px;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  color: black;
+}
+
+.slider{
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.slider img{
+  height: auto;
+  width: 100%;
+}
+
+.t1{
+    margin: 5px 0 10px 25px;
+}
+
+.t1-url{
+  text-decoration: underline;
+  color: black;
+}
+  
+.row{
+  display: flex;
+  margin: 0 20px;
+}
+  
+/* Create three equal columns that sits next to each other */
+.column{
+  flex: 25%;
+  padding: 5px;
+}
+
+.section1, .section2{
+  margin: 25px 0;
+}

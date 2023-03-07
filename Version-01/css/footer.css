@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: white;
+}
+
+/* footer{
+    padding: 40px 0;
+} */
+
+.top a{
+    text-decoration: none;
+    color: white;
+}
+
+.top h2{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.top h2 span{
+    color: red;
+}
+
+.top{
+    background-color: #485769;
+    color: white;
+}
+
+.top p{
+    text-align: center;
+    padding: 15px;
+}
+
+
+footer .social{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #232F3E;
+}
+
+footer .social a{
+    font-size: 25px;
+    color: white;
+    font-size: 24px;
+    border: 1px solid lightgrey;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+footer .list ul{
+    background-color: #131A22;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+footer ul li{
+    display: inline;
+    padding: 0 15px;
+}
+
+footer ul li a:hover{
+    opacity: 1;
+}
+
+footer .copyright{
+    text-align: center;
+    font-size: 13px;
+    background-color: #131A22;
+    color: white;
+    padding: 10px 0;
+}
+

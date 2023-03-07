@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+  
+.hero-image{
+    height: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container{
+    padding: 0 50px;
+    padding-bottom: 425px;
+}
+
+.title{
+    padding-top: 30px;
+}
+
+.title span{
+    font-size: 35px;
+    font-weight: bold;   
+}
+
+.title span .date{
+    float: right;
+}
+
+.category{
+    padding-top: 8px;
+}
+
+.details{
+    padding-top: 30px;
+}
+
+.image{
+    width: 250px;
+    height: 350px;
+}
+
+.left{
+    width: 60%;
+    display: flex;
+    float: left;
+}
+
+.left .box-b{
+    padding-left: 30px;
+}
+
+.right{
+    display: right;
+    width: 30%;
+    float: left;
+    padding-left: 70px
+}
+
+.btn{
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: #F44336;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 3px;
+    width: 500px;
+    height: 35px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header nav span{
+    color: red;
+}
+
+header nav{
+    display: flex;
+    width: 100%;
+    background: #131921;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+header nav .icon{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+
+header nav ol{
+    display: flex;
+    list-style-type: none;
+    margin: auto 0;
+}
+
+header nav ol li{
+    margin: 0 2px;
+}
+
+header nav ol li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+
+header nav ol li:hover a{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+
+header nav .search-box{
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+
+header nav .search-box input{
+    border: none;
+    outline: none;
+    background-color: white;
+    height: 100%;
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 700px;
+    border-radius: 3px;
+}
+
+header nav .search-box span{
+    color: darkblue;
+    font-size: 20px;
+    background-color: white;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+header nav .search-box span::after{
+    height: 100%;
+    width: 0%;
+    content: '';
+    background-color: #ff0030;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+header nav .search-box span:hover{
+    color: white;
+}
+
+header nav .search-box span:hover::after{
+    width: 100%;
+}
