@@ -9,19 +9,19 @@
 07: open new tab and paste: localhost/movie-booking-system/ <br>
 
 <h4>-- User Login Credentials --</h4>
-username: user
-password: user
+username: user <br>
+password: user <br>
 
 
 <h4>-- Admin Login Credentials --</h4>
 url: localhost/movie-booking-system/admin/
-username: admin
-password: admin
+username: admin <br>
+password: admin <br>
 
 
 <h4>-- Manager Login Credentails --</h4>
-url: localhost/movie-booking-system/manager/
-username: manager
-password: manager
+url: localhost/movie-booking-system/manager/ <br>
+username: manager <br>
+password: manager <br>
 
 <img src = "https://raw.githubusercontent.com/sachidumaleesha/Movie-Booking-WebApp/main/Version-01/Cinemix%20Folder%20Structure.png">
