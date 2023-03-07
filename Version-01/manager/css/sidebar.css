@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+.sidebar a:hover{
+    background-color: #555;
+    color: white;
+}
+
+.logo img, .profile img{
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+}
+
+.logo span{
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.profile{
+    position: absolute;
+	top: 0;
+	right: 0%;
+}
+
+.lower-left{
+	position: absolute;
+    width: 87%;
+	bottom: 0%;
+	left: 0;
+}
