@@ -1,4 +1,4 @@
-Steps to follow
+<h2>Steps to follow</h2>
 
 01: Copy movie-booking-system folder <br>
 02: Paste the folder under this path C:/xampp/htdocs/ <br>
@@ -8,18 +8,18 @@ Steps to follow
 06: Click on import button and choose the SQL Query file under database folder in movie-booking-system folder and click on go button to execute the quires. <br>
 07: open new tab and paste: localhost/movie-booking-system/ <br>
 
--- User Login Credentials --
+<h4>-- User Login Credentials --</h4>
 username: user
 password: user
 
 
--- Admin Login Credentials --
+<h4>-- Admin Login Credentials --</h4>
 url: localhost/movie-booking-system/admin/
 username: admin
 password: admin
 
 
--- Manager Login Credentails --
+<h4>-- Manager Login Credentails --</h4>
 url: localhost/movie-booking-system/manager/
 username: manager
 password: manager
