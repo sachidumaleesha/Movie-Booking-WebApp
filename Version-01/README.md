@@ -23,3 +23,5 @@ password: admin
 url: localhost/movie-booking-system/manager/
 username: manager
 password: manager
+
+<img src = "https://raw.githubusercontent.com/sachidumaleesha/Movie-Booking-WebApp/main/Version-01/Cinemix%20Folder%20Structure.png">
